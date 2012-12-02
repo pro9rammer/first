@@ -26,7 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7B809427165B184000FB3D65 /* ProjectResValidationTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectResValidationTool; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B809427165B184000FB3D65 /* prv */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = prv; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B80942B165B184000FB3D65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7B80942E165B184000FB3D65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7B809431165B184000FB3D65 /* ProjectResValidationTool-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProjectResValidationTool-Prefix.pch"; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 		7B809428165B184000FB3D65 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7B809427165B184000FB3D65 /* ProjectResValidationTool */,
+				7B809427165B184000FB3D65 /* prv */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,7 +105,7 @@
 			);
 			name = ProjectResValidationTool;
 			productName = ProjectResValidationTool;
-			productReference = 7B809427165B184000FB3D65 /* ProjectResValidationTool */;
+			productReference = 7B809427165B184000FB3D65 /* prv */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -200,7 +200,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProjectResValidationTool/ProjectResValidationTool-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = prv;
 			};
 			name = Debug;
 		};
@@ -209,7 +209,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProjectResValidationTool/ProjectResValidationTool-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = prv;
 			};
 			name = Release;
 		};
@@ -232,6 +232,7 @@
 				7B809438165B184000FB3D65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
