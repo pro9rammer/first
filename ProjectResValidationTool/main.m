@@ -69,7 +69,7 @@ int checkResource(RES_NODE *refResHead, RES_NODE *existResHead);
 int main(int argc, const char * argv[])
 {
 
-    @autoreleasepool {
+    @autoreleasepool { 
         
         printf("Project Resource Validation v0.1");
         
